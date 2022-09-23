@@ -11,7 +11,6 @@
 /* global css  */
 
 /* navbar css */
-
 .navbar {
   width: 100%;
   display: flex;
@@ -32,5 +31,37 @@
 .middle {
   margin-top: 20px;
   font-size: 15px;
+  color: #222;
+  opacity: calc(50%);
 }
+
+.last {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.last a {
+  opacity: calc(50%);
+  color: #222;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.last svg {
+  opacity: calc(50%);
+  margin-right: 40px;
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+.last a:hover {
+  opacity: calc(100%);
+  color: #222;
+  transition: all 0.7s;
+}
+.last svg:hover {
+  opacity: calc(100%);
+  color: #222;
+  transition: all 0.7s;
+}
+
 /* navbar css */
