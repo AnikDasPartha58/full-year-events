@@ -6,7 +6,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background: #fff;
 }
 /* global css  */
 
@@ -52,16 +51,14 @@
   align-items: center;
 }
 .last a {
-  opacity: calc(50%);
   color: #222;
+  opacity: calc(50%);
   text-decoration: none;
   margin-right: 10px;
 }
-.last svg {
+.last i {
   opacity: calc(50%);
   margin-right: 40px;
-  width: 23px;
-  height: 23px;
   cursor: pointer;
 }
 .last a:hover {
@@ -69,7 +66,7 @@
   color: #222;
   transition: all 0.7s;
 }
-.last svg:hover {
+.last i:hover {
   opacity: calc(100%);
   color: #222;
   transition: all 0.7s;
@@ -116,9 +113,8 @@
     display: flex;
     align-items: center;
   }
-  .last svg {
-    width: 20px;
-    height: 20px;
+  .last i {
+    margin-top: 3px;
     cursor: pointer;
   }
 }
