@@ -75,18 +75,11 @@
 /* navbar css */
 
 /* calander */
-.hero {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(45deg, #6ac1c5, #bda5ff);
-  position: relative;
-}
-
 #calendar {
-  border-radius: 10px;
+  border-radius: 5px;
   width: 80%;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 50px;
   left: 50%;
   transform: translate(-50%);
 }

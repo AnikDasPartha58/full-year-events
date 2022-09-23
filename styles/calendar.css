@@ -3,14 +3,7 @@
 ::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
-body {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 input:focus,
 textarea:focus,
@@ -34,11 +27,9 @@ button:focus {
   width: 200px;
   height: 100%;
   float: left;
-  /* background-color: #8773c1; */
-  background-color: #3ca8ff;
-  /* color: #fff; */
+  background-color: #fbfbfb;
   color: #222;
-  font-weight: 00;
+  font-weight: 500;
   z-index: 1;
   -webkit-box-shadow: 5px 0 18px -3px #8773c1;
   box-shadow: 5px 0 18px -3px #8773c1;
@@ -59,15 +50,15 @@ button:focus {
 }
 .calendar-sidebar > span#sidebarToggler {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   top: 0;
   right: 0;
   -webkit-transform: translate(100%, 0);
   -ms-transform: translate(100%, 0);
   transform: translate(100%, 0);
   background-color: #8773c1;
-  padding: 10px 8px;
+  padding: 10px;
   cursor: pointer;
   -webkit-box-shadow: 5px 0 18px -3px #8773c1;
   box-shadow: 5px 0 18px -3px #8773c1;
@@ -126,9 +117,11 @@ button:focus {
 }
 .calendar-sidebar > .month-list > .calendar-months > li:hover {
   background-color: #a692e0;
+  color: #fff;
 }
 .calendar-sidebar > .month-list > .calendar-months > li.active-month {
   background-color: #755eb5;
+  color: #fff;
 }
 .calendar-inner {
   position: relative;
@@ -219,7 +212,7 @@ tr.calendar-body .calendar-day .day {
   cursor: pointer;
 }
 tr.calendar-body .calendar-day .day:hover {
-  background-color: #dadada;
+  background-color: #8773c1;
 }
 tr.calendar-body .calendar-day .day:active {
   -webkit-transform: scale(0.9);
@@ -313,6 +306,8 @@ tr.calendar-body .calendar-day .day[disabled] {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+  background-color: #eaeaea;
+
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
