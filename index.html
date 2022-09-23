@@ -10,18 +10,26 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <script src="./scripts/daydatetime.js"></script>
     <!-- adding links  -->
 
     <title>Full Year Events</title>
   </head>
-  <body>
+  <body onload="updateClock()">
     <!-- header  -->
     <header>
       <div class="navbar">
         <div class="first">
           <h1>All 2022 Events</h1>
         </div>
-        <div class="middle">Date and day</div>
+        <div class="middle">
+          <div class="datetime">
+            <div class="date">
+              <span id="month">Month <span>,</span></span>
+              <span id="daynum">00</span>
+            </div>
+          </div>
+        </div>
         <div class="last">
           <a href="#">About</a>
           <svg
