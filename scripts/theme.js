@@ -5,6 +5,7 @@ const middle = document.querySelector(".middle");
 const last = document.querySelector(".last");
 const about = document.querySelector(".about");
 const moon = document.querySelector(".bi-brightness-high");
+const footer = document.querySelector("footer");
 
 toggle.addEventListener("click", function () {
   this.classList.toggle("bi-moon");
@@ -15,6 +16,7 @@ toggle.addEventListener("click", function () {
     last.style.color = "black";
     about.style.color = "black";
     moon.style.color = "black";
+    footer.style.color = "black";
   } else {
     body.style.background = "black";
     first.style.color = "white";
@@ -22,5 +24,6 @@ toggle.addEventListener("click", function () {
     last.style.color = "white";
     about.style.color = "white";
     moon.style.color = "white";
+    footer.style.color = "white";
   }
 });

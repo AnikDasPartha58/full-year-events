@@ -85,6 +85,18 @@
 }
 /* calander */
 
+/* footer  */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 665px;
+  color: #222;
+  opacity: calc(50%);
+}
+
+/* footer  */
+
 /* responsive */
 @media screen and (max-width: 600px) {
   .first {
@@ -107,6 +119,13 @@
     height: 20px;
     cursor: pointer;
   }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 580px;
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 650px) {
   .first {
@@ -117,6 +136,7 @@
     font-size: 18px;
     margin-left: 15px;
     color: #222;
+    opacity: calc(50%);
   }
   .last {
     margin-top: 20px;
@@ -127,6 +147,15 @@
   .last i {
     margin-top: 3px;
     cursor: pointer;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 580px;
+    font-size: 15px;
+    opacity: calc(50%);
+    color: #222;
   }
 }
 

@@ -68,6 +68,42 @@ $(document).ready(function () {
           "You snooze, you will be deprived. Fake it till you get there. These phrases just don't have any rhyme to them. That's no problem today, though, because National No Rhyme or Reason Day is for creating rhymes that don't actually rhyme. English words that don't rhyme with any other words are known as refractory rhymes, and using them makes National No Rhyme or Reason Day quite easy to celebrate. While there may be some obscure words that rhyme with purple, toilet, and orange, there aren't many, and when words like these are used while forming rhymes today, the phrases likely won't have much rhyme or reason to them.",
         everyYear: true, // Same event every year (optional)
       },
+      {
+        id: "sept1", // Event's ID (required)
+        name: "National Tofu Day (UK)", // Event name (required)
+        date: "September/1/2022", // Event date (required)
+        type: "event",
+        description:
+          "National Tofu Day (UK) is observed next on Friday, September 1st, 2023. It has been observed annually on September 1st since 2018.",
+        everyYear: true, // Same event every year (optional)
+      },
+      {
+        id: "sept1", // Event's ID (required)
+        name: "Pink Cadillac Day", // Event name (required)
+        date: "September/1/2022", // Event date (required)
+        type: "event",
+        description:
+          "This day is dedicated to pink Cadillacs, which have an iconic place in American culture, most notably because of Elvis Presley. Elvis mentioned a pink Cadillac in his first charting single, Baby Let's Play House, which was released in April 1955, and bought his first pink Cadillac around the same time. It was a 1954 Fleetwood Series 60, and it was destroyed in a roadside fire in June of the same year. His second Cadillac was a 1955 Fleetwood Series 60, which was originally blue with a black roof. He had a neighbor paint it pink for him, and gave it to his mother Gladys as a gift. As Gladys didn't have a driver's licence, Elvis still did most of the driving of it. Eventually Elvis had the top changed from black to white too. Elvis also bought himself a white with pink roofed 1961 Cadillac Coupe de Ville upon returning home from his service in Germany, and let his friend and soon-to-be tour manager, Joe Esposito, borrow the 1955 car. The 1955 is his most famous Cadillac, and it now is on display in Graceland.Although Elvis 1955 car was a four-door sedan, the romanticized version of the pink Cadillac in popular culture is seen as being the 1959 Cadillac Series 62 convertible. Many miniature replicas of this car have been made, and it has been featured in music videos. Pink Cadillacs have also permeated the public consciousness by being given to Mary Kay Cosmetics associates, after they reach $100,000 in sales in a year. Mary Kay Ash, the founder of Mary Kay, originally had a Cadillac made for herself based off a blush color, and sales directors liked it so much they bought their own. In 1969, Mary Kay Ash gave her type five sellers pink blush colored Cadillacs. Today cars are still being given out, although associates have an option to pick more cars besides just the pink Cadillac.",
+        everyYear: true, // Same event every year (optional)
+      },
+      {
+        id: "sept1", // Event's ID (required)
+        name: "World Letter Writing Day", // Event name (required)
+        date: "September/1/2022", // Event date (required)
+        type: "event",
+        description:
+          "World Letter Writing Day is observed next on Friday, September 1st, 2023. It has been observed annually on September 1st since 2014.",
+        everyYear: true, // Same event every year (optional)
+      },
+      {
+        id: "sept1", // Event's ID (required)
+        name: "Toy Tips Executive Toy Test Day", // Event name (required)
+        date: "September/1/2022", // Event date (required)
+        type: "event",
+        description:
+          "Toy Tips Executive Toy Test Day is observed next on Friday, September 1st, 2023. It is observed annually on September 1st.          ",
+        everyYear: true, // Same event every year (optional)
+      },
     ],
   });
 });
