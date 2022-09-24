@@ -34,11 +34,38 @@ $(document).ready(function () {
       },
       {
         id: "sept1", // Event's ID (required)
-        name: "Chicken bo Day", // Event name (required)
+        name: "Ginger Cat Appreciation Day", // Event name (required)
         date: "September/1/2022", // Event date (required)
         type: "event",
         description:
-          "National Chicken Boy Day on September 1 celebrates the statue of Chicken Boy, a man with a chicken head. Located on Avenue 56 at the top of Future Studio, Chicken Boy has been a prominent fixture for ten years and counting. Standing at 22 feet tall and holding a bucket of chicken, Chicken Boy was originally a promotion for a fast food restaurant based in Los Angeles",
+          "Ginger Cat Appreciation Day brings a little love to ginger cats. Sometimes called marmalade cats or tiger cats, ginger cats are orange tabby cats. Tabby cats have striped, marbled, ticked, or spotted markings on their coats, and almost always have a marking in the shape of an M on their forehead. All orange cats are tabbies, but not all tabbies are orange. There are no solid orange or ginger cats. Ginger cats come in shades of orange, gold, and red. Most ginger cats are male, and both domestic or wild cats can be ginger cats.While all ginger cats are honored today, one particular ginger cat, Doobert, is recognized today for his role in helping change animal transport. Chris Roy created a software platform that helps coordinate animal rescue relay transport, which is used by rescue organizations and volunteers, and named it after Doobert, his late ginger cat. Doobert is by no means the only ginger cat to have ever garnered a bit of attention. Milo of The Adventures of Milo and Otis fame, Garfield, Winston Churchill's cat, Jock, Jones from Alien, and Orangey, who starred in Breakfast at Tiffany's, among other films, all have had their time in the spotlight. But whether famous or not, all ginger cats are celebrated today!",
+        everyYear: true, // Same event every year (optional)
+      },
+      {
+        id: "sept1", // Event's ID (required)
+        name: "National Acne Positivity Day", // Event name (required)
+        date: "September/1/2022", // Event date (required)
+        type: "event",
+        description:
+          "National Acne Positivity Day is observed next on Friday, September 1st, 2023. It has been observed annually on September 1st since 2020.",
+        everyYear: true, // Same event every year (optional)
+      },
+      {
+        id: "sept1", // Event's ID (required)
+        name: "National Burnt Ends Day", // Event name (required)
+        date: "September/1/2022", // Event date (required)
+        type: "event",
+        description:
+          "National Burnt Ends Day is observed next on Friday, September 1st, 2023. It has been observed annually on September 1st since 2021.",
+        everyYear: true, // Same event every year (optional)
+      },
+      {
+        id: "sept1", // Event's ID (required)
+        name: "National No Rhyme or Reason Day", // Event name (required)
+        date: "September/1/2022", // Event date (required)
+        type: "event",
+        description:
+          "You snooze, you will be deprived. Fake it till you get there. These phrases just don't have any rhyme to them. That's no problem today, though, because National No Rhyme or Reason Day is for creating rhymes that don't actually rhyme. English words that don't rhyme with any other words are known as refractory rhymes, and using them makes National No Rhyme or Reason Day quite easy to celebrate. While there may be some obscure words that rhyme with purple, toilet, and orange, there aren't many, and when words like these are used while forming rhymes today, the phrases likely won't have much rhyme or reason to them.",
         everyYear: true, // Same event every year (optional)
       },
     ],
