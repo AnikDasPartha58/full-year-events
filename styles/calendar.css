@@ -845,9 +845,9 @@ button.icon-button > span.chevron-arrow-right {
     z-index: 0;
   }
   .event-hide .calendar-events {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(5);
+    -ms-transform: translateX(5);
+    transform: translateX(5);
     padding: 0 15px;
     height: 0;
   }
