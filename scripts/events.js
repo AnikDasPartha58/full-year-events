@@ -2,6 +2,7 @@ $(document).ready(function () {
   $("#calendar").evoCalendar({
     todayHighlight: "true",
     calendarEvents: [
+      //-----------------------------------------------9----------------------------------------------//
       //  september start
       //-- sept1--//
       {
@@ -1159,7 +1160,492 @@ $(document).ready(function () {
         everyYear: true,
         color: "#004EFF",
       },
+
       // september exit
+      //----------------------------------------------10----------------------------------------------//
+      // october start
+      //--oct1--//
+      {
+        id: "oct1",
+        name: "Chinese National Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "Durga Puja",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "	International Coffee Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "​International Day of Older Persons",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "	International Music Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "	International Raccoon Appreciation Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "Tuvalu Independence Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "World Ballet Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "	World Vegetarian Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct1",
+        name: "	World Sake Day",
+        date: "October/1/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct2--//
+      {
+        id: "oct2",
+        name: "Guinea Independence Day",
+        date: "October/2/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct2",
+        name: "International Blessings of The Fishing Fleet Day",
+        date: "October/2/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct2",
+        name: "	International Day of Non-Violence",
+        date: "October/2/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+
+      {
+        id: "oct2",
+        name: "Maha Saptami(Durga Puja)",
+        date: "October/2/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+
+      {
+        id: "oct2",
+        name: "	World Farm Animals Day",
+        date: "October/2/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct3--//
+      {
+        id: "oct3",
+        name: "Boqueron Battle Victory Day",
+        date: "October/3/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct3",
+        name: "Durga Ashtami(Durga Puja)",
+        date: "October/3/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct3",
+        name: "Iraq Independence Day",
+        date: "October/3/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct3",
+        name: "World Architecture Day",
+        date: "October/3/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct4--//
+      {
+        id: "oct4",
+        name: "Ayudha Puja(Durga Puja)",
+        date: "October/4/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct4",
+        name: "International: Chung Yeung Festival",
+        date: "October/4/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct4",
+        name: "Maha Navami(Durga Puja)",
+        date: "October/4/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct4",
+        name: "World Animal Day",
+        date: "October/4/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct4",
+        name: "World Dyslexia Day",
+        date: "October/4/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct4",
+        name: "World Habitat Day",
+        date: "October/4/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct5--//
+      {
+        id: "oct5",
+        name: "Dashain(Durga Puja)",
+        date: "October/5/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct5",
+        name: "	International Walk to School Day",
+        date: "October/5/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct5",
+        name: "Portugal Republic Day",
+        date: "October/5/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct5",
+        name: "	World Meningitis Day",
+        date: "October/5/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct5",
+        name: "World Teachers' Day",
+        date: "October/5/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct6--//
+      {
+        id: "oct6",
+        name: "World Cerebral Palsy Day",
+        date: "October/6/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct7--//
+      {
+        id: "oct7",
+        name: "	International Day of Peaceful Communication",
+        date: "October/7/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct7",
+        name: "	World Smile Day",
+        date: "October/7/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct7",
+        name: "World Cotton Day",
+        date: "October/7/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct8--//
+      {
+        id: "oct8",
+        name: "	International Birth Registration Day",
+        date: "October/8/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct8",
+        name: "International Newspaper Carrier Day",
+        date: "October/8/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct8",
+        name: "Milad an-Nabi (Mawlid)",
+        date: "October/8/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct8",
+        name: "Prophet Muhammad’s birthday",
+        date: "October/8/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct8",
+        name: "	World Octopus Day",
+        date: "October/8/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct9--//
+      {
+        id: "oct9",
+        name: "	Independence of Guayaquil",
+        date: "October/9/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct9",
+        name: "	International Beer and Pizza Day",
+        date: "October/9/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct9",
+        name: "	Uganda Independence Day",
+        date: "October/9/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct9",
+        name: "		World Hospice and Palliative Care Day",
+        date: "October/9/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct9",
+        name: "	World Post Day",
+        date: "October/9/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct10--//
+      {
+        id: "oct10",
+        name: "	Cuba Independence Day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "International Stage Management Day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "	International: Day of respect for cultural diversity",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "Taiwan: National Day / Double Ten day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "	World Animal Road Accident Awareness Day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "World Day Against The Death Penalty",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "	World Homeless Day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "World Inclusion Day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "World Mental Health Day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      {
+        id: "oct10",
+        name: "World Porridge Day",
+        date: "October/10/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct11--//
+      {
+        id: "oct11",
+        name: "International Day of the Girl Child",
+        date: "October/11/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct12--//
+      {
+        id: "oct11",
+        name: "International Day of the Girl Child",
+        date: "October/11/2022",
+        type: "event",
+        everyYear: true,
+        color: "pink",
+      },
+      //--oct13--//
+      //--oct14--//
+      //--oct15--//
+      //--oct16--//
+      //--oct17--//
+      //--oct18--//
+      //--oct19--//
+      //--oct20--//
+      //--oct21--//
+      //--oct22--//
+      //--oct23--//
+      //--oct25--//
+      //--oct26--//
+      //--oct27--//
+      //--oct28--//
+      //--oct29--//
+      //--oct30--//
+      //--oct31--//
+
+      // october exit
     ],
   });
 });
